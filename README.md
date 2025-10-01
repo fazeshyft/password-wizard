@@ -46,13 +46,10 @@ Your magical password is: mY53cr3tw0rd!7
 ---
 
 ## Uninstallation
-If installed with pipx, remove it with:
+To remove Password Wizard from your system:
 
-pipx uninstall password-wizard
-
-If installed manually, just delete the file:
-
-rm ~/.local/bin/password-wizard
+```bash
+sudo rm /usr/local/bin/password-wizard
 
 ---
 
