@@ -1,4 +1,4 @@
-# PASSWORD WIZARD
+# PASSWORD WIZARD 🧙‍♂️
 
 **Password Wizard** is a simple command-line program that playfully mutates any phrase you give it into a strong and memorable password for everyday use. It substitutes characters, adds random suffixes, and even hides an Easter egg if you know the magic word.
 
@@ -9,25 +9,22 @@
 ## INSTALLATION
 You can install Password Wizard in two main ways:
 
-### Option 1: Install via `pipx` (recommended)
-If you use pipx, run:
+### Option 1: Manual install
 
-pipx install git+https://github.com/fazeshyft/password-wizard.git
+```bash
+git clone https://github.com/fazeshyft/password-wizard.git
+cd password-wizard
+chmod +x password-wizard
+sudo cp password-wizard /usr/local/bin/
 
-This will install a password-wizard command that you can run from anywhere.
+Then run:
 
-### Option 2: Manual single-file install
-If you just want the script itself:
+password-wizard
 
-1. Download the file directly:
-curl -L https://raw.githubusercontent.com/fazeshyft/password-wizard/main/password_wizard.py -o ~/.local/bin/password-wizard
+Option 2: Use install script
+curl -s https://raw.githubusercontent.com/fazeshyft/password-wizard/main/install.sh | bash
 
-2. Make it executable:
-chmod +x ~/.local/bin/password-wizard
-
-3. Ensure ~/.local/bin is in your PATH (most Linux distributions already set this up).
-
-You can now run it by typing password-wizard in your terminal.
+**NOTE:** Password Wizard is currently optimized for Unix CLI (Linux, macOS, WSL). Windows support may come in later incantations.
 
 ---
 
