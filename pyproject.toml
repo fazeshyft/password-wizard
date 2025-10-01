@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "password-wizard"
+version = "1.0.0"
+description = "CLI that mutates a phrase into a stronger-looking password."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { file = "LICENSE" }
+authors = [{ name = "Grant Nolte" }]
+keywords = ["password", "cli", "terminal"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+  "Environment :: Console",
+  "Topic :: Security :: Cryptography"
+]
+
+[project.urls]
+Homepage = "https://github.com/fazeshyft/password-wizard"
+
+[project.scripts]
+password-wizard = "password_wizard:main"
+
+[tool.setuptools]
+py-modules = ["password_wizard"]
