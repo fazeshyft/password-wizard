@@ -59,6 +59,11 @@ To remove Password Wizard from your system:
 ```
 sudo rm /usr/local/bin/password-wizard
 ```
+To ensure it's fully removed from your system:
+
+```
+rm password-wizard
+```
 
 ---
 
