@@ -21,6 +21,7 @@ sudo cp password-wizard /usr/local/bin/
 
 password-wizard
 
+
 ### Option 2: Install script
 
 curl -s https://raw.githubusercontent.com/fazeshyft/password-wizard/main/install.sh | bash
