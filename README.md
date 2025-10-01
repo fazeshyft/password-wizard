@@ -20,7 +20,7 @@ This will install a password-wizard command that you can run from anywhere.
 If you just want the script itself:
 
 1. Download the file directly:
-curl -L https://raw.githubusercontent.com/fazeshyft/password-wizard/main/psw_generator.py -o ~/.local/bin/password-wizard
+curl -L https://raw.githubusercontent.com/fazeshyft/password-wizard/main/password_wizard.py -o ~/.local/bin/password-wizard
 
 2. Make it executable:
 chmod +x ~/.local/bin/password-wizard
