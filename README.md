@@ -16,7 +16,7 @@ git clone https://github.com/fazeshyft/password-wizard.git
 cd password-wizard
 chmod +x password-wizard
 sudo cp password-wizard /usr/local/bin/
-exit
+exit 0
 
 # Then run:
 
