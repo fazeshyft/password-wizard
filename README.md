@@ -17,7 +17,7 @@ cd password-wizard
 chmod +x password-wizard
 sudo cp password-wizard /usr/local/bin/
 
-Then run:
+# Then run:
 
 password-wizard
 
