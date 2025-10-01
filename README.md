@@ -24,6 +24,7 @@ password-wizard
 
 ### Option 2: Install script
 
+```bash
 curl -s https://raw.githubusercontent.com/fazeshyft/password-wizard/main/install.sh | bash
 
 **NOTE:** Password Wizard is currently optimized for Unix CLI (Linux, macOS, WSL). Windows support may come in later incantations.
