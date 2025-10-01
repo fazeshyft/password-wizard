@@ -21,6 +21,7 @@ Then run:
 
 password-wizard
 
+
 ### Option 2: Use install script
 curl -s https://raw.githubusercontent.com/fazeshyft/password-wizard/main/install.sh | bash
 
