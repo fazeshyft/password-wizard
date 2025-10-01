@@ -11,20 +11,24 @@ You can install Password Wizard in two main ways:
 
 ### Option 1: Manual install
 
-```bash
+```
 git clone https://github.com/fazeshyft/password-wizard.git
 cd password-wizard
 chmod +x password-wizard
 sudo cp password-wizard /usr/local/bin/
+```
 
-# Then run:
+Then run:
 
+```
 password-wizard
+```
 
+### Option 2: Install script
 
-**### Option 2: Install script**
-
+```
 curl -s https://raw.githubusercontent.com/fazeshyft/password-wizard/main/install.sh | bash
+```
 
 **NOTE:** Password Wizard is currently optimized for Unix CLI (Linux, macOS, WSL). Windows support may come in later incantations.
 
@@ -41,17 +45,20 @@ You’ll be prompted to enter a phrase or set of keywords. Password Wizard will 
 - Enter q to quit.
 
 ### Example:
+```
 Enter your phrase: mysecretword
 
 Your magical password is: mY53cr3tw0rd!7
+```
 
 ---
 
 ## Uninstallation
 To remove Password Wizard from your system:
 
-```bash
+```
 sudo rm /usr/local/bin/password-wizard
+```
 
 ---
 
