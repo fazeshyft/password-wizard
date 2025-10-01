@@ -64,4 +64,4 @@ This program is free software: you can redistribute it and/or modify it under th
 
 This program is distributed in the hope that it will be useful, but without any warranty; without even the implied warranty of merchantability or fitness for a particular purpose. See the GNU General Public License for more details.
 
-The GNU General Public License is available in the LICENSE section this program.
+A copy of the GNU General Public License is available under LICENSE.
