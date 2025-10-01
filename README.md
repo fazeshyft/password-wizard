@@ -43,6 +43,7 @@ You’ll be prompted to enter a phrase or set of keywords. Password Wizard will 
 
 ### Example:
 Enter your phrase: mysecretword
+
 Your magical password is: mY53cr3tw0rd!7
 
 ---
