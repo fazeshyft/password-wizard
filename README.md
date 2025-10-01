@@ -11,7 +11,7 @@ You can install Password Wizard in two main ways:
 
 ### Option 1: Manual install
 
-```
+```bash
 git clone https://github.com/fazeshyft/password-wizard.git
 cd password-wizard
 chmod +x password-wizard
